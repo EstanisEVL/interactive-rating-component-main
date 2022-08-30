@@ -1,0 +1,81 @@
+// MOBILE:
+@media screen and (max-width: 375px) {
+    .body{
+        min-height: 100vh;
+        position: relative;
+        background-color: $neutral-very-dark-blue;
+        @include flexbox(flex, column, nowrap, center, center);
+        .main{
+            max-width: 90%;
+            background-color: $neutral-dark-blue;
+            border-radius: 1.5rem;
+            .div--container{
+                padding: 2rem;
+                @include flexbox(flex, column, nowrap, space-evenly, stretch);
+                gap: 2rem;
+                .div--star{
+                    img{
+                        padding: 1.2rem;
+                        background-color: $neutral-dark-grey;
+                        border-radius: 50%;
+                    }
+                }
+                .div--title{
+                    h1{
+                        color: $neutral-white;
+                    }
+                }
+                .div--paragraph{
+                    color: $neutral-medium-grey;
+                }
+                .div--rating{
+                    @include flexbox(flex, row, nowrap, space-between, stretch);
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP:
+@media screen and (min-width: 375px) {
+    .body{
+        min-height: 100vh;
+        position: relative;
+        background-color: $neutral-very-dark-blue;
+        @include flexbox(flex, column, nowrap, center, center);
+        .main{
+            max-width: 40rem;
+            background-color: $neutral-dark-blue;
+            border-radius: 2.5rem;
+            .div--container{
+                padding: 3.5rem;
+                @include flexbox(flex, column, nowrap, space-evenly, stretch);
+                .div--star{
+                    margin-bottom: 2rem;
+                    img{
+                        padding: 1.2rem;
+                        background-color: $neutral-dark-grey;
+                        border-radius: 50%;
+                    }
+                }
+                .div--title{
+                    margin-bottom: 1rem;
+                    h1{
+                        color: $neutral-white;
+                    }
+                }
+                .div--paragraph{
+                    color: $neutral-medium-grey;
+                    margin-bottom: 2rem;
+                    p{
+                        line-height: 2.5rem;
+                    }
+                }
+                .div--rating{
+                    @include flexbox(flex, row, nowrap, space-between, center);
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+}

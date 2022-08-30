@@ -1,0 +1,12 @@
+.footer{
+    color: $neutral-white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    a{
+        color: hsl(228, 45%, 44%);
+    }
+}

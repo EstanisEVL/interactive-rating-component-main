@@ -1,0 +1,25 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstanisEVL/interactive-rating-component-main.git"
+  },
+  "author": "Estanislao Elias Varela Lucius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstanisEVL/interactive-rating-component-main/issues"
+  },
+  "homepage": "https://github.com/EstanisEVL/interactive-rating-component-main#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

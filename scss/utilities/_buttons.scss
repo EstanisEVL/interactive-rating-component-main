@@ -1,0 +1,34 @@
+.btn--rating{
+    width: 5rem;
+    height: 5rem;
+    background-color: $neutral-dark-grey;
+    color: $neutral-medium-grey;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+    transition: all 0.3s;
+    &:hover{
+        background-color: $neutral-medium-grey;
+        color: $neutral-white;
+        cursor: pointer;
+    }
+    &:active{
+        background-color: $primary-color;
+    }
+}
+.btn--submit{
+    background-color: $primary-color;
+    color: $neutral-white;
+    padding: 1.25rem;
+    border-radius: 5rem;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    transition: all 0.3s;
+    &:hover{
+        background-color: $neutral-white;
+        color: $primary-color;
+        cursor: pointer;
+    }
+}
