@@ -7,7 +7,7 @@
         @include flexbox(flex, column, nowrap, center, center);
         .main{
             max-width: 90%;
-            background-color: $neutral-dark-blue;
+            background: linear-gradient(to bottom, hsl(212, 18%, 14%), hsl(220, 16%, 11%));
             border-radius: 1.5rem;
             .div--container{
                 padding: 2rem;
@@ -32,6 +32,34 @@
                     @include flexbox(flex, row, nowrap, space-between, stretch);
                 }
             }
+            .div--container__thanks{
+                @include flexbox(flex, column, nowrap, center, center);
+                .div--img__thanks{
+                    margin-top: 4.5rem;
+                    margin-bottom: 2.8rem;
+                }
+                .div--title__thanks{
+                    margin-bottom: 1.5rem;
+                    font-size: 1.8rem;
+                    color: $neutral-white;
+                }
+                .div--paragraph__thanks{
+                    margin-bottom: 4.5rem;
+                    color: $neutral-medium-grey;
+                    text-align: center;
+                    max-width: 85%;
+                    p{
+                        line-height: 2.5rem;
+                    }
+                }
+                .div--rating__thanks{
+                    margin-bottom: 3.5rem;
+                    color: $primary-color;
+                    background-color: $neutral-dark-grey;
+                    padding: 0.5rem 2rem 0.5rem 2rem;
+                    border-radius: 2rem;
+                }
+            }
         }
     }
 }
@@ -45,12 +73,12 @@
         @include flexbox(flex, column, nowrap, center, center);
         .main{
             max-width: 40rem;
-            background-color: $neutral-dark-blue;
+            background: linear-gradient(to bottom, hsl(212, 18%, 14%), hsl(220, 16%, 11%));
             border-radius: 2.5rem;
             .div--container{
                 padding: 3.5rem;
                 @include flexbox(flex, column, nowrap, space-evenly, stretch);
-                .div--star{
+                .div--img{
                     margin-bottom: 2rem;
                     img{
                         padding: 1.2rem;
@@ -74,6 +102,34 @@
                 .div--rating{
                     @include flexbox(flex, row, nowrap, space-between, center);
                     margin-bottom: 3rem;
+                }
+            }
+            .div--container__thanks{
+                @include flexbox(flex, column, nowrap, center, center);
+                .div--img__thanks{
+                    margin-top: 4.5rem;
+                    margin-bottom: 2.8rem;
+                }
+                .div--title__thanks{
+                    margin-bottom: 1.5rem;
+                    font-size: 1.8rem;
+                    color: $neutral-white;
+                }
+                .div--paragraph__thanks{
+                    margin-bottom: 4.5rem;
+                    color: $neutral-medium-grey;
+                    text-align: center;
+                    max-width: 85%;
+                    p{
+                        line-height: 2.5rem;
+                    }
+                }
+                .div--rating__thanks{
+                    margin-bottom: 3.5rem;
+                    color: $primary-color;
+                    background-color: $neutral-dark-grey;
+                    padding: 0.5rem 2rem 0.5rem 2rem;
+                    border-radius: 2rem;
                 }
             }
         }

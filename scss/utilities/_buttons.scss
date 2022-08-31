@@ -12,8 +12,9 @@
         color: $neutral-white;
         cursor: pointer;
     }
-    &:active{
+    &:focus{
         background-color: $primary-color;
+        color: $neutral-white;
     }
 }
 .btn--submit{
