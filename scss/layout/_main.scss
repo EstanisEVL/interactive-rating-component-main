@@ -60,6 +60,12 @@
                     border-radius: 2rem;
                 }
             }
+            .show{
+                display: block;
+            }
+            .hide{
+                display: none;
+            }
         }
     }
 }
@@ -131,6 +137,12 @@
                     padding: 0.5rem 2rem 0.5rem 2rem;
                     border-radius: 2rem;
                 }
+            }
+            .show{
+                display: block;
+            }
+            .hide{
+                display: none;
             }
         }
     }

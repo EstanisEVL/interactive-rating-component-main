@@ -104,7 +104,11 @@ body {
           color: #fb7413;
           background-color: #353e4b;
           padding: 0.5rem 2rem 0.5rem 2rem;
-          border-radius: 2rem; } }
+          border-radius: 2rem; }
+      .body .main .show {
+        display: block; }
+      .body .main .hide {
+        display: none; } }
 
 @media screen and (min-width: 375px) {
   .body {
@@ -174,7 +178,11 @@ body {
           color: #fb7413;
           background-color: #353e4b;
           padding: 0.5rem 2rem 0.5rem 2rem;
-          border-radius: 2rem; } }
+          border-radius: 2rem; }
+      .body .main .show {
+        display: block; }
+      .body .main .hide {
+        display: none; } }
 
 .footer {
   color: white;
