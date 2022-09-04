@@ -12,7 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -28,14 +27,18 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop preview: ![Desktop](./Desktop-Preview-Frontend-Mentor-Interactive-rating-component.png)
+- Desktop preview:
 
-- Mobile preview: ![Mobile](./Mobile-Preview-Frontend-Mentor-Interactive-rating-component.png)
+![Desktop](./Desktop-Preview-Frontend-Mentor-Interactive-rating-component.png)
+
+- Mobile preview: 
+
+![Mobile](./Mobile-Preview-Frontend-Mentor-Interactive-rating-component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [link](https://github.com/EstanisEVL/interactive-rating-component-main)
+- Live Site URL: [link](https://estanisevl.github.io/interactive-rating-component-main)
 
 ## My process
 
@@ -50,21 +53,11 @@ Users should be able to:
 
 ### What I learned
 
-This project helped me practice programming with Vanilla Javascript, especially DOM manipulation using event handlers added to the different HTML buttons...
-
-
-
+In this challenge, I learned how to add and remove CSS classes using JavaScript, which allowed me to reduce the number of lines of code needed to print on screen the score chosen by the user.
 
 ### Continued development
 
-I'd like to...
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I'd like to continue honing my CSS skills so I can better replicate the designs provided by Frontend Mentor. And also I'll keep looking to learn the best JavaScript practices to improve my code, making it clearer, more efficient and easier to read and understand.
 
 ## Author
 
