@@ -57,7 +57,7 @@ In this challenge, I learned how to add and remove CSS classes using JavaScript,
 
 ### Continued development
 
-I'd like to continue honing my CSS skills so I can better replicate the designs provided by Frontend Mentor. And also I'll keep looking to learn the best JavaScript practices to improve my code, making it clearer, more efficient and easier to read and understand.
+I'd like to continue honing my CSS skills, so I can better replicate the designs provided by Frontend Mentor, specially the gradients used in component's backgrounds, which I find difficult to copy at a glance. And also I'll keep looking to learn the best JavaScript practices to improve my code, making it clearer, more efficient and easier to read and understand.
 
 ## Author
 
